@@ -152,16 +152,12 @@ public class OverScrollView extends FrameLayout implements OnTouchListener
 	public OverScrollView(Context context)
 	{
 		this(context, null);
-		mContext = context;
-		initBounce();
 	}
 
 	public OverScrollView(Context context, AttributeSet attrs)
 	{
 
 		this(context, attrs, 0);
-		mContext = context;
-		initBounce();
 	}
 
 	public OverScrollView(Context context, AttributeSet attrs, int defStyle)
